@@ -258,6 +258,7 @@ public class TemperatureSeriesAnalysisTest {
         assertEquals(expResult, actualResult);
     }
 
+
     @Test
     public void testAddTemps() {
         double[] temperatureSeries = {31.0, 334.8, 5432.0, 834.0, 723.5};

@@ -22,10 +22,10 @@ public class TemperatureSeriesAnalysis {
     public double average() {
         double counter = 0;
 
-        if (temperatureSeries.equals(0)){
+        if (temperatureSeries.equals(0)) {
             throw new IllegalArgumentException();
         }
-        for (int i = 0; i < temperatureSeries.length; i++){
+        for (int i = 0; i < temperatureSeries.length; i++) {
             counter += temperatureSeries[i];
         }
         double average = counter / temperatureSeries.length;
@@ -36,12 +36,12 @@ public class TemperatureSeriesAnalysis {
         if (temperatureSeries.length == 0) {
             throw new IllegalArgumentException();
         }
-        double our_sum = 0;
-        for (int i = 0; i < temperatureSeries.length; i++){
+        double sum = 0;
+        for (int i = 0; i < temperatureSeries.length; i++) {
             double k = (temperatureSeries[i] - average())*(temperatureSeries[i] - average());
-            our_sum += k;
+            sum += k;
         }
-        double l = Math.sqrt((our_sum / temperatureSeries.length));
+        double l = Math.sqrt((sum / temperatureSeries.length));
 
         return l;
     }
@@ -114,14 +114,14 @@ public class TemperatureSeriesAnalysis {
             }
         }
 
-        double[] lst1 = new double[size];
+        double[] newLst = new double[size];
         for (int i = 0; i < temperatureSeries.length; i++) {
             if (temperatureSeries[i] < tempValue) {
-                lst1[counter] = temperatureSeries[i];
+                newLst[counter] = temperatureSeries[i];
                 counter += 1;
             }
         }
-        return lst1;
+        return newLst;
     }
 
     public double[] findTempsGreaterThen(double tempValue) {
@@ -132,19 +132,19 @@ public class TemperatureSeriesAnalysis {
                 size += 1;
             }
         }
-        double[] lst1 = new double[size];
+        double[] newLst = new double[size];
         for (int i = 0; i < temperatureSeries.length; i++) {
             if (temperatureSeries[i] > tempValue) {
-                lst1[counter] = temperatureSeries[i];
+                newLst[counter] = temperatureSeries[i];
                 counter += 1;
             }
         }
-        return lst1;
+        return newLst;
     }
 
     public TempSummaryStatistics summaryStatistics() {
 
-        if (temperatureSeries.length == 0){
+        if (temperatureSeries.length == 0) {
             throw new IllegalArgumentException();
         }
         TempSummaryStatistics a = new TempSummaryStatistics(this.average(), this.deviation(), this.min(), this.max());
@@ -153,12 +153,12 @@ public class TemperatureSeriesAnalysis {
 
     public int addTemps(double... temps) {
         int counter = 0;
-        double[] new_lst = new double[Math.max(temperatureSeries.length + temps.length, this.temperatureSeries.length * 2)];
+        double[] newLst = new double[Math.max(temperatureSeries.length + temps.length, this.temperatureSeries.length * 2)];
         for (int i = 0; i < temperatureSeries.length; i++) {
-            new_lst[i] = temperatureSeries[i];
+            newLst[i] = temperatureSeries[i];
         }
         for (int j = 0; j < temps.length; j++) {
-            new_lst[j + temperatureSeries.length] = temps[j];
+            newLst[j + temperatureSeries.length] = temps[j];
         }
         int len = temperatureSeries.length + temps.length;
         return len;

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ac25a0-375b-451a-9e27-18d71d6c1a12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main/ua/edu/ucu/tempseries/TempSummaryStatistics.class" afterPath="$PROJECT_DIR$/out/production/main/ua/edu/ucu/tempseries/TempSummaryStatistics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.class" afterPath="$PROJECT_DIR$/out/production/main/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java" />
     </list>
@@ -38,8 +38,8 @@
       <file leaf-file-name="TemperatureSeriesAnalysis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+            <state relative-caret-position="179">
+              <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -634,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476192027396</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New updates (finding bugs)">
+      <created>1476192282170</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1476192282170</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -656,8 +663,8 @@
     <history-entry file="TemperatureSeriesAnalysisTest - 2016.10.11 at 16h 24m 34s.xml">
       <configuration name="TemperatureSeriesAnalysisTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TemperatureSeriesAnalysisTest_testAddTemps - 2016.10.11 at 14h 15m 06s.xml">
-      <configuration name="TemperatureSeriesAnalysisTest.testAddTemps" configurationId="JUnit" />
+    <history-entry file="TemperatureSeriesAnalysisTest - 2016.10.11 at 16h 32m 28s.xml">
+      <configuration name="TemperatureSeriesAnalysisTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TemperatureSeriesAnalysisTest_testAddTemps - 2016.10.11 at 14h 17m 58s.xml">
       <configuration name="TemperatureSeriesAnalysisTest.testAddTemps" configurationId="JUnit" />
@@ -785,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        <state relative-caret-position="179">
+          <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
           <folding />
         </state>
       </provider>

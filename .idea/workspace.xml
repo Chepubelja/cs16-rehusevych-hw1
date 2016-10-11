@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ac25a0-375b-451a-9e27-18d71d6c1a12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main/ua/edu/ucu/tempseries/TempSummaryStatistics.class" afterPath="$PROJECT_DIR$/out/production/main/ua/edu/ucu/tempseries/TempSummaryStatistics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.class" afterPath="$PROJECT_DIR$/out/production/main/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TempSummaryStatistics.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TempSummaryStatistics.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java" />
     </list>
     <ignored path="TemperatureSeries.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="TemperatureSeriesAnalysisTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="4488">
+              <caret line="268" column="5" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -38,8 +39,8 @@
       <file leaf-file-name="TemperatureSeriesAnalysis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+            <state relative-caret-position="128">
+              <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -48,8 +49,8 @@
       <file leaf-file-name="TempSummaryStatistics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TempSummaryStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -620,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476191116889</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New updates (finding bugs)">
+      <created>1476191372685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1476191372685</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -636,8 +644,11 @@
     <history-entry file="TemperatureSeriesAnalysisTest - 2016.10.11 at 16h 09m 20s.xml">
       <configuration name="TemperatureSeriesAnalysisTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TemperatureSeriesAnalysisTest_testAddTemps - 2016.10.11 at 13h 48m 55s.xml">
-      <configuration name="TemperatureSeriesAnalysisTest.testAddTemps" configurationId="JUnit" />
+    <history-entry file="TemperatureSeriesAnalysisTest - 2016.10.11 at 16h 18m 30s.xml">
+      <configuration name="TemperatureSeriesAnalysisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TemperatureSeriesAnalysisTest - 2016.10.11 at 16h 20m 18s.xml">
+      <configuration name="TemperatureSeriesAnalysisTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TemperatureSeriesAnalysisTest_testAddTemps - 2016.10.11 at 14h 15m 06s.xml">
       <configuration name="TemperatureSeriesAnalysisTest.testAddTemps" configurationId="JUnit" />
@@ -651,9 +662,6 @@
     <history-entry file="TemperatureSeriesAnalysisTest_testFindTempClosestToValueWithOneElementArray - 2016.10.11 at 16h 09m 16s.xml">
       <configuration name="TemperatureSeriesAnalysisTest.testFindTempClosestToValueWithOneElementArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TemperatureSeriesAnalysisTest_testFindTempClosestToZeroWithEmptyArray - 2016.10.11 at 09h 51m 05s.xml">
-      <configuration name="TemperatureSeriesAnalysisTest.testFindTempClosestToZeroWithEmptyArray" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -664,9 +672,9 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5087848" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -763,24 +771,24 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysisTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TempSummaryStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+        <state relative-caret-position="128">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="4488">
+          <caret line="268" column="5" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
           <folding />
         </state>
       </provider>

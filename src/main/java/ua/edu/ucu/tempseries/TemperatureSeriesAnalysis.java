@@ -22,8 +22,8 @@ public class TemperatureSeriesAnalysis {
     public double average() {
         double counter = 0;
 
-        if (temperatureSeries.equals(0))
-            throw new IllegalArgumentException();
+        if (temperatureSeries.equals(0)){
+            throw new IllegalArgumentException();}
         for (int i = 0; i < temperatureSeries.length; i++) {
             counter += temperatureSeries[i];
         }
@@ -37,7 +37,7 @@ public class TemperatureSeriesAnalysis {
         }
         double our_sum = 0;
         for (int i = 0; i < temperatureSeries.length; i++) {
-            double k = Math.pow(temperatureSeries[i] - average(), 2);
+            double k = (temperatureSeries[i] - average())*(temperatureSeries[i] - average());
             our_sum += k;
         }
         double l = Math.sqrt((our_sum / temperatureSeries.length));
@@ -151,15 +151,6 @@ public class TemperatureSeriesAnalysis {
     }
 
     public int addTemps(double... temps) {
-//        double[] newTempSeries = new double[Math.max(this.temperatureSeries.length+temps.length, this.temperatureSeries.length * 2)];
-//        for (int i = 0; i < temps.length; i++) {
-//        newTempSeries[i] = temps[i];}
-//        for (int i = 0; i < this.temperatureSeries.length; i++){
-//            newTempSeries[i+temps.length] = this.temperatureSeries[i];
-//        }
-//        this.temperatureSeries = newTempSeries;
-//        this.sum = this.sum + temps.length;
-//        return this.sum;
         int counter = 0;
         double[] new_lst = new double[Math.max(temperatureSeries.length + temps.length, this.temperatureSeries.length * 2)];
         for (int i = 0; i < temperatureSeries.length; i++) {

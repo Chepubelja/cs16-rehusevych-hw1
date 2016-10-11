@@ -23,8 +23,9 @@ public class TemperatureSeriesAnalysis {
         double counter = 0;
 
         if (temperatureSeries.equals(0)){
-            throw new IllegalArgumentException();}
-        for (int i = 0; i < temperatureSeries.length; i++) {
+            throw new IllegalArgumentException();
+        }
+        for (int i = 0; i < temperatureSeries.length; i++){
             counter += temperatureSeries[i];
         }
         double average = counter / temperatureSeries.length;
@@ -36,7 +37,7 @@ public class TemperatureSeriesAnalysis {
             throw new IllegalArgumentException();
         }
         double our_sum = 0;
-        for (int i = 0; i < temperatureSeries.length; i++) {
+        for (int i = 0; i < temperatureSeries.length; i++){
             double k = (temperatureSeries[i] - average())*(temperatureSeries[i] - average());
             our_sum += k;
         }

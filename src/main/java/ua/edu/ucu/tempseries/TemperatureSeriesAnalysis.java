@@ -92,7 +92,7 @@ public class TemperatureSeriesAnalysis {
             throw new IllegalArgumentException();
         }
         int counter = 0;
-        double difference = 0;
+        double difference;
         double closest = Math.abs(temperatureSeries[0] - tempValue);
         for (int i = 1; i < temperatureSeries.length; i++) {
             if (Math.abs(temperatureSeries[i] - tempValue) < closest) {
